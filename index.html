@@ -1,14 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bingo Room</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Just+Another+Hand|Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+    <header id="header">
+        <div>
+            <img src="https://i2.wp.com/www.kilmovee.info/wp-content/uploads/bingo.png?fit=746%2C250&ssl=1" alt="">
+            <h1>Bingo Room</h1>
+            <p>Simple Bingo game for everybody! Easy and Fan!</p>
+            <img src="https://i2.wp.com/www.kilmovee.info/wp-content/uploads/bingo.png?fit=746%2C250&ssl=1" alt="">
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center heading-ticket">Choose Your
+                        <span>Ticket</span> Now!</h2>
+                    <table id="ticket">
+                        <tr>
+                            <td class="colona">-></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                        </tr>
+                        <tr>
+                            <td class="colona">-></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                        </tr>
+                        <tr>
+                            <td class="colona">-></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                        </tr>
+                        <tr>
+                            <td class="colona">-></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                        </tr>
+                        <tr>
+                            <td class="colona">-></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                        </tr>
+                        <tr>
+                            <td class="colona">-></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                            <td class="item"></td>
+                        </tr>
+                    </table>
+
+                    <center>
+                        <button onclick="showTicketNumbers();" id="generate-ticket">Generate Numbers</button>
+                    </center>
+
+                    <div class="output-area">
+                        <div>
+                            <p id="output-numbers">15</p>
+                        </div>
+                        <button id="start-game">Start Game</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
 </body>
+
 </html>
